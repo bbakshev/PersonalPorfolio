@@ -18,6 +18,9 @@
 - 1:00pm - 2:00pm: Researching on what other 'eye catching' React libraries are available to use for my project.
 - 2:00pm - 3:00pm: Researching on how to use the React libraries I have chosen to use for my project.
 
+##### Friday, 5/5
+- 8:15am - 10:00am: Watching tutorial videos on how to create a portfolio site using React. The tutorial I am using is: https://youtu.be/hYv6BM2fWd8
+
 ## License
 
 _[MIT](https://opensource.org/license/mit/)_
