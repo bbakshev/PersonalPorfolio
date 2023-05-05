@@ -8,7 +8,7 @@ export const Banner = () => {
               <h1>I'm <span>John Doe</span></h1>
               <p>I'm a UI/UX Designer &amp; Front-End Developer from Victoria, Australia. I aim to make a difference through my creative solution.</p>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Hire Me</span></button>
+                <button className="vvd"><span>Hire Me!</span></button>
               </HashLink>
             </div>
           </Col>
