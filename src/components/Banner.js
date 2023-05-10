@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/header-img.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
 
@@ -56,8 +56,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 {/* <span className="tagline">Welcome to my Portfolio</span> */}
                 <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Hi, Im Brishna!","Web Developer", "Frontend Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <p>I am a Seattle-based front-end React Developer actively seeking a new opportunity.</p>
+                  <a href="https://drive.google.com/file/d/1rsm3XnPS8VCM2V2ObIHKH1znLsMh7M40/view?usp=share_link" target="_blank" rel="noopener noreferrer"><button className="cv-btn">Download CV</button></a>
               </div>}
             </TrackVisibility>
           </Col>
