@@ -10,25 +10,23 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: 'Project 1',
-      description: 'This is a description of Project 1',
+      title: 'Super Galactic Age Calculator',
+      description: 'JavaScript form for a user to input their age in the preset, past and future to receive their age in 5 planets including earth',
+      info: <a href='https://github.com/bbakshev/super-galactic-age'>Learn More</a>,
       imgUrl: ProjImg1,
     },
     {
-      title: 'Project 2',
-      description: 'This is a description of Project 2',
+      title: 'Currency Exchanger',
+      description: 'JavaScript program that uses exchange Rate API to convert base currency to a desired currency.',
+      info: <a href='https://github.com/bbakshev/currency-exchanger'>Learn More</a>,
       imgUrl: ProjImg2,
     },
     {
-      title: 'Project 3',
-      description: 'This is a description of Project 3',
+      title: 'Pig Dice Game',
+      description: 'The games UI allows the user/player to roll the dice, add the rolled number to the current score if its not 1, hold the current score to add it to the total score, and switch players if the total score reaches 100 or reset all scores to 0 with Player 1 as the starting player.',
+      info: <a href='https://github.com/bbakshev/pig-game'>Learn More</a>,
       imgUrl: ProjImg3,
     },
-    // {
-    //   title: 'Project 4',
-    //   description: 'This is a description of Project 4',
-    //   imgUrl: ''
-    // },
   ]
 
   return (
