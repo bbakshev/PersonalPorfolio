@@ -8,7 +8,7 @@ export const About = () => {
             <div className="about-bx">
             <h2>About Me</h2>
             <p className="para">
-            I'm passionate about front-end development because I love the challenge of creating beautiful and user-friendly web applications. Also excited about the ever-changing landscape of front-end development and the opportunity to learn new technologies and techniques. Excited to find a position where I can use my skills and experience to make a positive impact on the world.</p>
+            As a dedicated full stack developer, my enthusiasm for learning and creating is limitless. Recently graduated from a coding bootcamp, I have gained practical experience in React, JavaScript, HTML, CSS, and C#. I possess a natural talent for creatively solving intricate problems and thrive in collaborative team settings. The joy of continuous growth and expanding my skill set drives my excitement to flourish as a developer.</p>
             </div>
         </div>
       </div>
