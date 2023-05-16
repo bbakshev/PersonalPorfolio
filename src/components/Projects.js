@@ -5,6 +5,9 @@ import bgColor1 from "../assets/img/color-sharp2.png"
 import ProjImg1 from "../assets/img/project-img1.png"
 import ProjImg2 from "../assets/img/project-img2.png"
 import ProjImg3 from "../assets/img/project-img3.png"
+import ProjImg4 from "../assets/img/vendor.png"
+import ProjImg5 from "../assets/img/animal.png"
+import ProjImg6 from "../assets/img/pie.png"
 
 export const Projects = () => {
 
@@ -27,6 +30,29 @@ export const Projects = () => {
       info: <a href='https://github.com/bbakshev/pig-game'>Learn More</a>,
       imgUrl: ProjImg3,
     },
+  ]
+
+  const project1 = [
+    {
+      title: 'Vendor and Order Tracker',
+      description: 'This application prompts users to create a tracker for vendors and allows them to add new vendors and order details.',
+      info: <a href='https://github.com/bbakshev/VendorOrderTracker.Solution'>Learn More</a>,
+      imgUrl: ProjImg4,
+    },
+
+    {
+      title: 'Animal Shelter',
+      description: 'This application will prompt the user to create a tracker for the animals up for adoption. The User can add a new animal to the database or the user can view all animals currently up for adoption',
+      info: <a href='https://github.com/bbakshev/AnimalShelter.Solution'>Learn More</a>,
+      imgUrl: ProjImg5,
+    },
+
+    {
+      title: 'Pierre\'s Sweet and Savory Treats',
+      description: 'A website for keeping track of a treats. Users can add, edit, and delete treats/flavors from the database.',
+      info: <a href='https://github.com/bbakshev/AnimalShelter.Solution'>Learn More</a>,
+      imgUrl: ProjImg6,
+    }
   ]
 
   return (
@@ -69,7 +95,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                     <Row>
                         {
-                          projects.map((project, index) => {
+                          project1.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -83,14 +109,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                     <Row>
                         {
-                          projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
+                          <p>Coming Soon</p>
                         }
                       </Row>
                     </Tab.Pane>
