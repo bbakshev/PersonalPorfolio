@@ -52,7 +52,7 @@ export const Banner = () => {
         setDelta(100);
       } else {
         // Adjust the speed of the typing phase here
-        setDelta(50);
+        setDelta(70);
       }
     }
   };
